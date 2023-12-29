@@ -1,0 +1,672 @@
+/*
+
+COLOR SCHEME
+
+
+Orange: #FF7F00
+Dark orange: #B25900
+Light orange: #FF8C19
+Blue: #0089B2
+Light blue: #00C4FF
+ 
+
+
+*/
+
+
+
+
+
+body
+
+{
+	
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 80%;
+	width: 1024px;
+	min-height: 768px;
+	background:url(../images/haran_bckg.gif) no-repeat top left;
+	color: black;
+}
+
+
+
+
+/*ACCESSIBILITY FEATURE: Skip the navigation bar - if display: none, the screen readers won't read it*/ 
+
+
+#skip 
+
+{
+	width: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+
+p, h1, h2, h3, h4, h5, h6, div, img
+
+{
+	padding: 0;
+	margin: 0;
+}
+
+#main
+
+{
+	background-color: transparent;
+	margin: 0 5%;
+}
+
+
+
+#commonlinks
+
+{
+	text-align: right;
+	height: 15px;
+	font-size: 80%;
+}
+
+		#commonlinks a
+		
+		{
+			color: #0089B2; /*blue*/
+			text-decoration: none;
+			font-weight: normal;
+		}
+	
+		#commonlinks a:link
+		
+		{
+			color: #0089B2; /*blue*/
+		}
+		
+		#commonlinks a:visited
+		
+		{
+			color:  #FF8C19; /*light orange*/
+		}
+		
+		#commonlinks a:hover
+		
+		{
+			color: #B25900; /*dark orange*/
+		}
+		
+		#commonlinks a.current
+		
+		{
+			color: #FF7F00; /*orange*/
+		}
+
+
+#top
+
+{
+	background: transparent;
+	padding: 2em 0 ;
+	color: #0089B2; /*blue*/
+}
+
+
+		p.top1
+		
+		{
+			font-size: 21px;
+			font-weight: bold;
+		}
+		
+		p.top2
+		
+		{
+			font-size: 19px;
+			font-weight: normal;
+		}
+		
+		p.top3
+		
+		{
+			font-size: 12px;
+			font-style: italic;
+		}
+		
+		
+		
+		
+		
+
+/*GLOBAL NAVIGATION BAR*/
+
+
+
+#gnb
+
+{
+	text-align: center;
+	font-size: 100%;
+	height: 30px;
+	line-height: 30px;
+	margin: 3em 0 1em 0;
+	padding: 0;
+}
+
+
+		#gnb a
+		
+		{
+			display: block;
+			border: none;
+			text-decoration: none;
+			float: left;
+			background-color: transparent;
+			font-weight: normal;
+			width: 151px;
+			text-align: center;
+			
+		}
+		
+		
+				#gnb a:link
+				
+				{
+					color: #0089B2; /*blue*/
+					
+				}
+				
+				#gnb a:visited
+				
+				{
+					color: #0089B2; /*blue*/
+				}
+				
+				#gnb a:hover
+				
+				{
+					color: #B25900; /*dark orange*/
+				}
+				
+				#gnb a.current
+				
+				{
+					color: #FF7F00; /*orange*/
+					font-weight: bold;
+				}
+
+
+
+
+
+
+/*MAIN DIVS*/
+
+#content
+
+{
+	min-height: 450px;
+
+}
+
+
+			#lnb
+			
+			{
+				width: 25%;
+				float: left;
+				margin: 0;
+				padding: 0;
+			}
+			
+			#text
+			
+			{
+				width: 48%;
+				float: right;
+				margin: 0 25% 0 0;
+				
+			}
+			
+					
+						#text img
+					
+					{
+						clear: both;
+						float: right;
+						padding: 5em 1em 1em 1em;
+						margin: 0;
+						
+						
+					}
+						
+						#text p
+						
+						{
+							margin-bottom: 18px;
+							line-height: 20px;
+							
+						}
+						
+				
+						h1	
+			
+			
+							{
+								font-size: 110%;
+								margin-bottom: 2em;
+								margin-top: 5em;
+								line-height: 20px;
+								font-weight: bold;
+								color: #B25900; /*dark orange*/
+								font-style: normal;
+							}
+						
+			
+		
+
+
+
+	
+/*FOOTER*/
+		
+#footer
+
+{
+	clear: both;
+	text-align: center;
+	font-size: 90%;
+	padding: 2em 0 1em 0;
+	margin: 1em 0;
+	color: #0089B2; /*blue*/
+}
+
+
+p.webmaster
+
+{
+	color: #B25900; /*dark orange*/
+	font-size: 90%;
+	margin-top: 1em;
+}
+
+
+
+
+
+/* GENERAL LINKS*/
+
+a
+
+{
+	text-decoration: none;
+}
+
+
+a:link
+
+{
+	color: #0089B2; /*blue*/
+}
+		
+a:visited
+
+{
+	color: #FF8C19; /*light orange*/
+}
+
+	
+a:hover
+
+{
+	color: #B25900; /*dark orange*/
+	
+}
+	
+
+
+
+
+
+/*SESSION FEES PAGE */
+
+h6
+
+{
+	font-size: 18px;
+	color: #B25900; /*dark orange*/
+	text-align: right;
+	padding: 2em 0 2em 0;
+	margin: 0;
+}
+
+
+table
+
+{
+	text-align: center;
+	width: 100%;
+	margin: 0 0 1em 0;
+	empty-cells: hide;
+	border-collapse: collapse;
+}
+		
+		th
+		
+		{
+			color: #B25900; /*dark orange*/
+			font-weight: bold;
+			border-bottom: 1px solid #B25900; /*dark orange*/
+			height: 20px;
+			line-height: 20px;
+		}
+		
+
+			th.duration
+			
+			
+			{
+				width: 50%;
+			}
+			
+			th.shortlong
+			
+			
+			{
+				width: 25%;
+				padding-bottom: 5px;
+			}
+			
+			
+			
+			th.titles
+			
+			{
+				color: black;
+				text-align: left;
+				padding-left: 2em;
+			}
+
+		td
+		
+		{
+			text-align: center;
+			margin-left: 1em;
+			border-bottom: 1px solid #B25900; /*dark orange*/
+			height: 20px;
+			line-height: 20px;
+		}
+		
+	
+
+
+table caption
+{
+	font-weight: bold;
+	color: #B25900; /*dark orange*/
+	text-align: center;
+	font-size: 120%;
+	padding-bottom: 1em;
+	
+}
+
+
+
+
+
+		
+
+/*SITE MAP */
+
+h2
+
+{
+	font-size: 26px;
+	color: #B25900; /*dark orange*/
+	text-align: right;
+	padding-top: 7em;
+}
+
+
+
+#sitemap
+			
+{
+	margin: 4em 0 3em 0;
+	text-align: center;
+}
+
+	#sitemap p
+				
+	{
+		
+		margin: 2em 0 2em 0;
+		padding: 0;
+		font-size: 110%;
+	}
+	
+	#sitemap p.big
+				
+	{
+		
+		margin: 2em 0 0 0;
+		padding: 0;
+		font-size: 110%;
+	}
+	
+	
+	
+	#sitemap p.subtitle
+				
+	{
+		margin: 0;
+		padding: 0;
+		font-size: 100%;
+	}
+	
+	
+	
+
+			
+	#sitemap a.title
+	
+	{
+				color: #B25900; /*dark orange*/		
+				margin: 2em 0 1em 0;
+	}
+	
+	
+			
+			#sitemap a:visited
+			
+			{
+				color:  #FF8C19; /*light orange*/
+			}
+			
+			#sitemap a:hover
+			
+			{
+				color:  #FF8C19; /*light orange*/
+			}
+
+
+/*RESOURCES */
+
+#resources
+			
+			{
+				text-align: center;
+				
+			}
+
+#resources p
+			
+			{
+				margin: 0;
+				padding: 0 0 1em 0;
+				line-height: normal;
+			}
+
+
+h4 /*Resources left title*/
+
+{
+	font-size: 26px;
+	color: #B25900; /*dark orange*/
+	text-align: right;
+	padding-top: 1em;
+}
+
+
+h3 /*subtitle 1*/
+
+{
+	font-size: 110%;
+	font-weight: bold;
+	color: #B25900; /*dark orange*/
+	font-style: normal;
+	padding: 2em 0 1em 0;
+}
+
+h5 /*subtitle 2*/
+
+{
+	font-size: 100%;
+	font-weight: bold;
+	color: #000; /*black*/
+	padding: 1em 0;
+	margin: 0;
+}
+
+a.resources
+
+{
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+a.resources:link
+
+{
+	color: #000; /*black*/
+}
+		
+a.resources:visited
+
+{
+	color: #FF8C19; /*light orange*/
+}
+
+	
+a.resources:hover
+
+{
+	color: #B25900; /*dark orange*/
+	
+}
+	
+
+
+
+
+
+/*CONTACT PAGE*/
+
+
+#contact
+			
+			{
+				text-align: center;
+				
+			}
+			#contact p
+			
+			{
+				text-align: left;
+				padding-left: 4em;
+				line-height: normal;
+				margin: 0;
+				
+			}
+			
+					#contact span
+					
+					{
+						font-weight: bold;
+					}
+
+
+							a.contact:link
+							
+							{
+								color: #000; /*black*/
+							}
+									
+							a.contact:visited
+							
+							{
+								color: #FF8C19; /*light orange*/
+							}
+							
+								
+							a.contact:hover
+							
+							{
+								color: #B25900; /*dark orange*/
+								
+							}
+
+/*FORM CSS*/
+
+#form
+
+{
+	
+}
+
+
+
+#form label
+
+{
+	font-size: 100%;
+	color: #0089B2; /*blue*/
+	text-align: left;
+	margin: 0 0 1em 0;
+}
+
+input, textarea
+
+{
+	margin: 0 0 1em 0;
+	
+}
+
+
+
+#contact table
+
+{
+	text-align: left;	
+}
+
+.center
+
+{
+	text-align: center;
+}
+
+
+
+/*THANK YOU PAGE*/
+
+
+.ta
+
+{
+	font-size: 110%;
+	color: #B25900; /*dark orange*/
+	text-align: center;
+	margin-top: 9em;
+	
+}

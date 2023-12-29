@@ -1,0 +1,52 @@
+.dm1 {
+    font: 17px tahoma;
+	z-index:100;
+}
+.dm1 .item1,
+.dm1 .item1:hover,
+.dm1 .item1-active,
+.dm1 .item1-active:hover {
+    padding: 3px 11px 4px 11px;
+    border: 1px #003366;
+    border-style: solid none solid none;
+    text-decoration: none;
+    display: block;
+    position: relative;
+}
+.dm1 .item1 {
+    background: #208AB9;
+    color: #ffffff;
+}
+.dm1 .item1:hover,
+.dm1 .item1-active,
+.dm1 .item1-active:hover {
+    background: #17678A;
+    color: #ffffff;
+}
+.dm1 .item2,
+.dm1 .item2:hover {
+    padding: 3px 8px 4px 8px;
+    text-decoration: none;
+    display: block;
+    white-space: nowrap;
+}
+.dm1 .item2 {
+    background: #208AB9;
+    color: #ffffff;
+}
+.dm1 .item2:hover {
+    background: #17678A;
+    color: #ffffff;
+}
+.dm1 .section {
+    border: 1px #003366;
+    border-style: solid solid solid solid;
+    position: absolute;
+    visibility: hidden;
+    z-index: -1;
+    white-space: nowrap;
+}
+.dm1 .left, .dm1 .left:hover { border-style: solid none solid solid; }
+.dm1 .right, .dm1 .right:hover { border-style: solid solid solid none; }
+
+* html .dm1 td { position: relative; } /* ie 5.0 fix */
